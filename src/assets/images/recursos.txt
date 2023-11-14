@@ -1,0 +1,8 @@
+Foto de Polina Kovaleva: https://www.pexels.com/es-es/foto/zapatos-de-cuero-negros-al-lado-de-macbook-pro-5828578/
+Foto de picjumbo.com: https://www.pexels.com/es-es/foto/cuaderno-junto-al-iphone-en-la-mesa-196644/
+Foto de picjumbo.com: https://www.pexels.com/es-es/foto/papel-de-impresora-blanco-196645/
+Foto de cottonbro studio: https://www.pexels.com/es-es/foto/hombre-vestido-con-chaqueta-negra-con-ordenador-portatil-sentado-junto-a-la-mesa-3584926/
+Foto de Plann: https://www.pexels.com/es-es/foto/persona-con-smartphone-4549416/
+Foto de Jakub Zerdzicki: https://www.pexels.com/es-es/foto/iphone-ordenador-portatil-oficina-internet-18991663/
+Imagen de <a href="https://pixabay.com/es/users/ptra-359668/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1913689">Ptra</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1913689">Pixabay</a>
+npm install --save react-router-dom
