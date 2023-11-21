@@ -20,7 +20,7 @@ export default class Router extends Component {
 
     return (
       <BrowserRouter>
-        <NavegacionComponent/>
+        {/* <NavegacionComponent/> */}
         <Routes>
             <Route path="/" element={<HomeComponent/>}/>
             {/* <Route path="/nuevopersonaje" element={<NuevoPersonaje/>}/>
