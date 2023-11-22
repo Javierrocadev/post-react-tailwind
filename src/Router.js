@@ -1,34 +1,24 @@
 import React, { Component } from 'react'
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
 //import components
-import NavegacionComponent from './components/NavegacionComponent';
+import ListComponent from './components/ListComponent';
 import HomeComponent from './components/HomeComponent';
+import ApiComponent from './components/ApiComponent';
+
+import NavegacionComponent from './components/NavegacionComponent';
+
 
 
 export default class Router extends Component {
   render() {
-
-
-    // function SeriesElement(){
-    //     var {serie}=useParams()
-    //     return <Series serie={serie}/>
-    // }
-    // function PersonajesElement(){
-    //     var {serie}=useParams()
-    //     return <Personajes serie={serie}/>
-    // }
-
     return (
       <BrowserRouter>
-        {/* <NavegacionComponent/> */}
+        <NavegacionComponent/>
         <Routes>
             <Route path="/" element={<HomeComponent/>}/>
-            {/* <Route path="/nuevopersonaje" element={<NuevoPersonaje/>}/>
-            <Route path="/modificarpersonaje" element={<ModificarPersonaje/>}/> */}
-            {/* <Route path="/serie/:serie" element={<SeriesElement/>}/>
-            <Route path="/personajes/:serie/" element={<PersonajesElement/>}/> */}
+            <Route path="/lista" element={<ListComponent/>}/>
+            <Route path="/api" element={<ApiComponent/>}/>
 
-          
         </Routes>
       </BrowserRouter>
     )
